@@ -1,0 +1,72 @@
+.navbar {
+    background-color: #D6E0EC;
+    position: sticky;
+    top: 0;
+    height: 65px;
+    scroll-behavior: smooth;
+}
+
+.navbar.active {
+    background-color: #D6E0EC;
+    height: 65px;
+    z-index: 1000;
+}
+
+
+/* //// */
+
+.navbar-brand img {
+    height: 50px;
+    width: auto;
+}
+
+.Serach_box {
+    margin-right: 10vw;
+}
+
+.Serach_box input {
+    padding: 8px 150px 8px 10px;
+}
+
+.Serach_box button {
+    background-color: #4b1eed;
+    outline: none;
+    color: white;
+    border: none;
+}
+
+.Serach_box button:hover {
+    background-color: #4b1eed;
+    outline: none;
+    color: white;
+    border: none;
+}
+
+.nav-link {
+    font-size: 17px;
+    color: white;
+    font-weight: 500;
+}
+
+.cart_incon_navbar {
+    color: #4b1eed;
+    font-size: 25px;
+}
+
+
+/* footer */
+
+.footer {
+    background-color: #4b1eed;
+}
+
+.coperight {
+    font-size: 16px;
+    color: wheat;
+    padding-right: 40px;
+}
+
+.cat-btn {
+    background-color: #4b1eed;
+    color: white;
+}
